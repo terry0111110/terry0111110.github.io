@@ -1,12 +1,8 @@
 ---
 title: "CNC-machined aluminum bracket"
 excerpt: "This is a CNC-machined aluminum bracket designed to mount two stepper motors at a fixed 90° angle.."
-
-gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-   
+header:
+  image: /assets/img/5537t659c1-i02f-digital-master1570138894-p9@1x_637057406083548204.jpg
 ---
 
 # Features
