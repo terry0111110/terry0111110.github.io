@@ -1,9 +1,7 @@
 ---
-title: "Large Format 3D Printer"
-excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
-header:
-  image: /assets/img/LF3DP-Banner-2.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+title: "CNC-machined aluminum bracket"
+excerpt: "This is a CNC-machined aluminum bracket designed to mount two stepper motors at a fixed 90° angle.."
+
 gallery:
   - image_path: assets/img/Slide-3.png
   - image_path: assets/img/Slide-2.png
@@ -13,11 +11,31 @@ gallery:
 
 # Features
 
-* **Massive Print Area: 1140 x 1200 x 1100 mm.** With a build envelop just shy of 4 feet in all dimensions, the LF3DP is capable of printing furniture and other large objects.
-* **High Volumetric Output Extruder: 1 kg/hr - 450 C.** This printer come standard with a MDPH2 extruder by Massive Dimension, which can extrude at a rate of 1 kg/hr. Unlike typical filament extruders, the MDPH2 uses a screw to convey and liquify plastic pellets before the molten material is pushed out of a large nozzle (1 to 5 mm extrusion diameter). Please note: This printer can also be configured for other high flow rate extruders, such as the Typhoon and Pulsar by Dyze Design.
-* **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
+* **Lightweight Triangular Structure** With its rigid 90° geometry and two large relief cut-outs, this bracket combines strength with reduced weight, making it ideal for motor or sensor mounts.
+* **High-Strength Material: 6061-T6 Aluminum** CNC-machined from aerospace-grade aluminum, then anodized black for enhanced corrosion resistance and a professional finish.
+* **Optimized for Standard Hardware** Pre-countersunk M5 holes allow screws to sit flush with the surface. The design fits common NEMA-17/NEMA-23 stepper motor hole patterns, ensuring easy integration.
+
+
+#### Off-the-shelf Parts
+
+
+| # | Part Name | Specification | Qty | Link |
+|---|-----------|---------------|-----|------|
+|1|Aluminum L-Bracket (custom)|CNC-machined 6061-T6, black anodized|1|–|
+|2|Flat-head Socket Screw|M5 × 12 mm, stainless steel|4|[McMaster-Carr 91294A](https://www.mcmaster.com/91294A)|
+
+
+
+#### Additional Info / Notes
+
+# Operating instruction
+
+1. Fasten the bracket to your base plate using M5 countersunk screws.
+2. Attach the stepper motors with supplied bolts through the large cut-outs.
+3. Connect the motors to your driver board following the Arduino wiring diagram.
+4. Upload the sketch and test movement; adjust current limit on the driver if needed.
 
 # CAD Model
-<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f255f6522bb2efd0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Large Format 3D Printer Gallery" %}
