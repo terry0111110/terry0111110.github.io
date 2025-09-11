@@ -1,31 +1,40 @@
 ---
 
-title: "About David Florian"
+title: "About Letian Ren"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+
+* Beijing University of Technology  2019 - 2023
+  * BS in Civil Engineering (Strusture Engineering)
+* University of Michigan, Ann Arbor 2023 - 2025
+  * MSc in Civil Engineering (Syetem Engineering)
+* Vanderbilt University 2025 - Now
+  * Ph.D. in Civil Engineering
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+* Programming Language: 
+Python, MATLAB,
+* Tools/Software: 
+Abaqus, Midas, SAP2000, Revit, AutoCAD, SolidWorks, Ardurino, Gurobi, Delft-3D, HEC-RAS,SWAN, HEC-SSP
+* Technology: 
+Machine Learning, Sensors, optimization
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+## Award
 
-## Press 
+* IBM Student Fellowship at Vanderbilt University 2025.9
+* Bachelor Degree with Honors  2023.7
+* Beijing University of Technology Urban Construction Department Academic Excellence Award  2022.9 
+* Beijing University of Technology School-level Academic Excellence Award  2020.10 & 2021.10
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+## Teaching Experience
+* Teaching Assistant, Mechanics of Materials
+
+## Hobby 
+
+Soccer, Music, Movie...
