@@ -1,7 +1,7 @@
 ---
 title: "CNC-machined aluminum bracket"
 excerpt: "This is a CNC-machined aluminum bracket designed to mount two stepper motors at a fixed 90° angle.."
-
+taser: 
 ---
 
 # Features
