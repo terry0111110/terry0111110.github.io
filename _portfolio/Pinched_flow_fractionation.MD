@@ -7,7 +7,7 @@ header:
 
 ---
 
-# GitHub Entry – μFluidic Device
+# μFluidic Device Introduction
 
 * **Pinch Flow Fractionation (PFF) Principle**  
   Pinched flow fractionation (PFF) is a simple, biocompatible microfluidic technique for particle separation, well-suited for applications requiring easy design, ease of operation, and gentle sample handling.
@@ -18,43 +18,50 @@ A buffer flow squeezes the particle stream against one wall in a narrow region, 
 
 Fiedler, S., Gielen, F., & Sadr, R. (2022). Design advances in pinched flow fractionation for enhanced particle separation in microfluidics. Lab on a Chip, 22(10), 1805–1821. DOI: 10.1039/D5LC00497G
 
-
+# μFluidic Device Design 
 * **Design Approach**  
   Adopted an **asymmetric configuration**, where the buffer inlet has a higher flow rate, pushing the sample flow toward one wall for effective focusing.
 
 * **Outlet Boundary Placement**  
-  Outlet positions were aligned with calculated streamline bands (Y₀) for the 125–150 μm and 425–500 μm particle ranges. Based on the following calculation, \mathrm{Given:\ }w_p=0.6\ \mathrm{mm}, wb=40 mm
-Y_0=\left(w_p-\frac{D}{2}\right)\frac{w_b}{w_p}=\left(0.6-\frac{D}{2}\right)\times\frac{40}{0.6}=\left(0.6-\frac{D}{2}\right)\times66.6
-Small\ particles:125-150\mu m\left(0.125-0.150~\mathrm{mm}\right)
-\ \ D\ =\ 0.125:\ \ Y_0\ =\ (0.6\ -\ 0.0625)\ \times66.67\ \approx35.83mm\ 
-\ \ D\ =\ 0.150:\ \ Y_0\ =\ (0.6\ -\ 0.0750)\ \times66.67\ \approx35.00mm
-\Rightarrow\mathrm{Small-particle\ outlet\ reference\ height:\ }35.0-35.8~\mathrm{mm}
-
-Large\ particles:425-500\mu m\left(0.425-0.500\mathrm{mm}\right)
-\ \ D\ =\ 0.425:\ Y_0\ =\ (0.6\ -\ 0.2125)\ \times66.67\ \approx25.83mm
-\ \ D\ =\ 0.500:\ \ Y_0\ =\ (0.6\ -\ 0.2500)\ \times66.67\ \approx23.33mm
-\Rightarrow\mathrm{Large-particle\ outlet\ reference\ height:\ }23.3-25.8~\mathrm{mm}
+  Outlet positions were aligned with calculated streamline bands (Y₀) for the 125–150 μm and 425–500 μm particle ranges. Based on the following calculation,
+"assets/img/design process1.png.jpg"
 
 
 * **Flow Balancing Strategy**  
-  Adjusted each outlet’s hydraulic resistance \( R \propto \frac{L}{w\,h^3} \).  
-  The buffer outlet was designed shorter and wider, while particle outlets were longer with equal width, achieving a flow ratio of **Qbf : Qsm : Qlg ≈ 5 : 2.5 : 2.5**.
+  Adjusted each outlet’s hydraulic resistance. Based on following equation,"assets/img/design process2.png.jpg"
+  The buffer outlet was designed shorter and wider, while particle outlets were longer with equal width, achieving a flow ratio of **Qbf : Qsm : Qlg ≈ 2 : 1 : 1**.
 
 * **Outlet Geometry Improvements (Iteration Plan)**  
-  - Equalize outlet widths and control flow only by length (2 : 4 : 4 ratio).  
-  - Add 3–5 mm straight settling zones before outlets.  
-  - Use fillets (R = 0.5–1.0 mm) and ≥1.2 mm wall thickness to reduce shear and bubbles.  
+  - Equalize outlet widths and control flow only by length (1 : 2 : 2 ratio).  
+  - Add gentle fillets at turns 
   - Increase outlet spacing for cleaner separation and easier tubing.
 
+# μFluidic Device Design 
 * **Fabrication Steps (Resin Printing to Device)**  
   1. Design mold in Fusion 360 and export STL.  
   2. Print with resin 3D printer and post-cure.  
   3. Coat mold with parylene to prevent PDMS adhesion.  
   4. Pour and cure PDMS, then peel off.  
   5. Punch inlet/outlet holes and plasma-bond to glass.
+Key size of mold:
+/assets/img/size of mold.png
+Mold:
+/assets/img/mold.png
+Device:
+/assets/img/device.png
+Plasma treating:
+/assets/img/Plasma-Treating-Image.jpg
 
 * **Why Resin Printing**  
-  Provides high-resolution, smooth surfaces for mi
+  Resin printing was chosen because it provides high resolution and smooth surface finishes needed for micro-scale channels. 
+  Besides,
+  1.  Barrier against leachables & curing inhibition: Photopolymer resins release inhibitors that retard or prevent PDMS curing; a conformal Parylene-C coating blocks diffusion, avoiding inhibition. 
+  2. Biocompatibility & stability: Parylene renders 3D prints more biocompatible, reduces absorption/toxicity, and protects the mold from solvents—extending mold lifetime.
+  3. Lower surface energy and smoother coated surfaces improve PDMS release and channel quality.
+
+* **Follow-up improvement**  
+  I would choose interchangeable pinched widths w_p and add multiple outlet positions to target different bands in order to handle a wider range of particle sizes. Whether the particle will have laminar phenomenon or not set the lower limit on the particle size that can be separated with pinch flow fractionation. When particles become too small, diffusion dominates over laminar focusing, and they no longer follow stable streamlines.
+
 
 
 # CAD Model
