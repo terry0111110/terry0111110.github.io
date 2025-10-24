@@ -55,7 +55,7 @@ Plasma treating:
 /assets/img/Plasma-Treating-Image.jpg
 
 ## Key size of mold
-![Key size of mold](/assets/img/size-of-mold.png)
+![Key size of mold](/assets/img/size of mold.png)
 
 ## Mold
 ![Mold](/assets/img/mold.png)
