@@ -43,7 +43,7 @@ A buffer flow squeezes the particle stream against one wall in a narrow region, 
   5. Punch inlet/outlet holes and plasma-bond to glass.
 
 ## Key size of mold
-![Key size of mold](/assets/img/size of mold.png)
+![Key size of mold](/assets/img/size_of_mold_2.jpg)
 
 ## Mold
 ![Mold](/assets/img/mold.jpg)
