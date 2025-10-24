@@ -58,10 +58,10 @@ Plasma treating:
 ![Key size of mold](/assets/img/size of mold.png)
 
 ## Mold
-![Mold](/assets/img/mold.png)
+![Mold](/assets/img/mold.jpj)
 
 ## Device
-![Device](/assets/img/device.png)
+![Device](/assets/img/device.jpg)
 
 ## Plasma treating
 ![Plasma treating](/assets/img/Plasma-Treating-Image.jpg)
