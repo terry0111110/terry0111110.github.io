@@ -41,18 +41,6 @@ A buffer flow squeezes the particle stream against one wall in a narrow region, 
   3. Coat mold with parylene to prevent PDMS adhesion.  
   4. Pour and cure PDMS, then peel off.  
   5. Punch inlet/outlet holes and plasma-bond to glass.
-Key size of mold:
-gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-assets/img/size of mold.png  
-Mold:
-/assets/img/mold.png
-Device:
-/assets/img/device.png
-Plasma treating:
-/assets/img/Plasma-Treating-Image.jpg
 
 ## Key size of mold
 ![Key size of mold](/assets/img/size of mold.png)
