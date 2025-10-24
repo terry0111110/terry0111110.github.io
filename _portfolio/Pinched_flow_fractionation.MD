@@ -44,7 +44,11 @@ Fiedler, S., Gielen, F., & Sadr, R. (2022). Design advances in pinched flow frac
   4. Pour and cure PDMS, then peel off.  
   5. Punch inlet/outlet holes and plasma-bond to glass.
 Key size of mold:
-/assets/img/size of mold.png
+gallery:
+  - image_path: assets/img/Slide-3.png
+  - image_path: assets/img/Slide-2.png
+  - image_path: assets/img/Slide-4.png
+assets/img/size of mold.png  
 Mold:
 /assets/img/mold.png
 Device:
