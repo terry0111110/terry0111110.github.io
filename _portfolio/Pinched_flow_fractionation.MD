@@ -54,6 +54,27 @@ Device:
 Plasma treating:
 /assets/img/Plasma-Treating-Image.jpg
 
+## Key size of mold
+![Key size of mold](/assets/img/size-of-mold.png)
+
+## Mold
+![Mold](/assets/img/mold.png)
+
+## Device
+![Device](/assets/img/device.png)
+
+## Plasma treating
+![Plasma treating](/assets/img/Plasma-Treating-Image.jpg)
+
+
+
+
+
+
+
+
+
+
 * **Why Resin Printing**  
   Resin printing was chosen because it provides high resolution and smooth surface finishes needed for micro-scale channels. 
   Besides,
