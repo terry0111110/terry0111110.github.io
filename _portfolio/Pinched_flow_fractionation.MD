@@ -14,7 +14,8 @@ header:
 A buffer flow squeezes the particle stream against one wall in a narrow region, and when the channel widens, the particles follow different streamlines based on their size, allowing them to exit through separate outlets.
 
 * **Specific Application & Benefit**  
-  It makes separation microplastics for water quality evaluation. Compared to traditional filters, PFF avoids clogging and does not rely on membranes or pressure drops. It separates particles continuously in a laminar flow, using only fluid dynamics. This makes it gentle, reusable, and suitable for handling fragile or irregular particles such as microplastics in water samples.Fiedler, S., Gielen, F., & Sadr, R. (2022). Design advances in pinched flow fractionation for enhanced particle separation in microfluidics. Lab on a Chip, 22(10), 1805–1821. DOI: 10.1039/D5LC00497G
+  It makes separation microplastics for water quality evaluation. Compared to traditional filters, PFF avoids clogging and does not rely on membranes or pressure drops. It separates particles continuously in a laminar flow, using only fluid dynamics. This makes it gentle, reusable, and suitable for handling fragile or irregular particles such as microplastics in water samples.Fiedler, S., Gielen, F., & Sadr, R. (2022). Design advances in pinched flow fractionation for enhanced particle separation in microfluidics. [Lab on a Chip, 22(10), 1805–1821. DOI: 10.1039/D5LC00497G](https://doi.org/10.1039/D5LC00497G)
+
 
 # μFluidic Device Design 
 * **Design Approach**  
