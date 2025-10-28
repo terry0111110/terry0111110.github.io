@@ -25,7 +25,7 @@ A buffer flow squeezes the particle stream against one wall in a narrow region, 
 ![Design process](/assets/img/design_process_1.jpg)
 
 * **Flow Balancing Strategy**  
-  Adjusted each outlet’s hydraulic resistance. Based on following equation,![Design process](/assets/img/design_process_2.jpg)
+  Adjusted each outlet’s hydraulic resistance. Based on following equation,R∝L/(wh^3)​ and Q∝1/R
   The buffer outlet was designed shorter and wider, while particle outlets were longer with equal width, achieving a flow ratio of **Qbf : Qsm : Qlg ≈ 2 : 1 : 1**.
 
 * **Outlet Geometry Improvements (Iteration Plan)**  
