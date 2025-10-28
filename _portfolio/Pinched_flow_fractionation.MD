@@ -21,7 +21,7 @@ A buffer flow squeezes the particle stream against one wall in a narrow region, 
   Adopted an **asymmetric configuration**, where the buffer inlet has a higher flow rate, pushing the sample flow toward one wall for effective focusing.
 
 * **Outlet Boundary Placement**  
-![Design process](/assets/img/design_process_1.jpg)
+![Design process](/assets/img/design_process_1.jpg)  
   Based on the following calculation, Outlet positions were aligned with calculated streamline bands (Y₀) for the 125–150 μm and 425–500 μm particle ranges. 
 
 * **Flow Balancing Strategy**  
