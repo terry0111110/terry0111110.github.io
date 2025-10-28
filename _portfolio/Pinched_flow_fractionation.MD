@@ -22,13 +22,12 @@ A buffer flow squeezes the particle stream against one wall in a narrow region, 
 
 * **Outlet Boundary Placement**  
   Outlet positions were aligned with calculated streamline bands (Y₀) for the 125–150 μm and 425–500 μm particle ranges. Based on the following calculation,
-assets/img/design_process_1.jpg
-
+![Design process](/assets/img/design_process_1.jpg)
 
 * **Flow Balancing Strategy**  
   Adjusted each outlet’s hydraulic resistance. Based on following equation,"assets/img/design process2.png.jpg"
   The buffer outlet was designed shorter and wider, while particle outlets were longer with equal width, achieving a flow ratio of **Qbf : Qsm : Qlg ≈ 2 : 1 : 1**.
-assets/img/design_process_2.jpg
+![Design process](/assets/img/design_process_2.jpg)
 * **Outlet Geometry Improvements (Iteration Plan)**  
   - Equalize outlet widths and control flow only by length (1 : 2 : 2 ratio).  
   - Add gentle fillets at turns 
