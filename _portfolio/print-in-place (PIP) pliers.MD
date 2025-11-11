@@ -72,14 +72,10 @@ These specifications were optimized to balance tool strength with print reliabil
 
 ### Picture Gallery
 
-Below are a few stages of the design and testing process.
-
-| Iteration | Description | Image |
-|------------|--------------|-------|
-| **V1** | Initial prototype — hinge fused after print due to insufficient clearance. | ![](/assets/img/pliers_v1.jpg) |
-| **V2** | Adjusted clearance and added spring geometry. | ![](/assets/img/pliers_v2.jpg) |
-| **V3 (Final)** | Smooth hinge operation and reliable spring return. | ![](/assets/img/pliers_final.jpg) |
-
+## Pliers
+![Pliers](/assets/img/pliers.jpg)
+## Iterations
+![Iterations](/assets/img/iteration_pliers.jpg)
 ---
 
 ### Reflection
