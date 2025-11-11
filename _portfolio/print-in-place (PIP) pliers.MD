@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project showcases the design and fabrication of **print-in-place (PIP) pliers**, a single-step 3D-printed mechanism that functions immediately after printing — no assembly required. The design leverages the unique capabilities of additive manufacturing to produce fully articulated joints within a single print, where clearances and overhangs are precisely tuned to allow free movement.
+This project showcases the design and fabrication of **print-in-place (PIP) pliers**, a single-step 3D-printed mechanism that functions immediately after printing — no assembly required. 
 
 Print-in-place (PIP) designs represent one of the most creative uses of 3D printing. Instead of printing separate parts and assembling them later, PIP models integrate all components — hinges, springs, sliders — into one continuous structure. When printed correctly, the parts are free to move once the support material or bridging layers are broken away.
 
@@ -27,9 +27,7 @@ When it comes to materials, **PLA** and **PETG** are the most common choices due
 
 An interactive version of the CAD model can be viewed below:
 
-[![View 3D Model](https://img.shields.io/badge/🔗%20View%20in%20Fusion%20360-Online-blue)](https://a360.co/your_model_link_here)
-
-This model was designed in **Fusion 360**, with attention to joint clearance (typically 0.3–0.4 mm) to ensure free motion right after printing.
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281138791c29f24582de?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ---
 
