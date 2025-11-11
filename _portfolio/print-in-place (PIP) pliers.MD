@@ -50,7 +50,7 @@ Material-wise, the pliers were printed using **PLA** on a **Formlabs FDM printer
 | Maximum Jaw Opening | 18 mm |
 | Handle Width | 23 mm |
 | Plier Height | 5 mm |
-
+| capacity | 5 resistances in 30s |
 
 These specifications were optimized to balance tool strength with print reliability, while ensuring all components remain functional post-print.
 
