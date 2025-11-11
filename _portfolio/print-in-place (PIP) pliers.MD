@@ -45,12 +45,12 @@ Material-wise, the pliers were printed using **PLA** on a **Formlabs FDM printer
 
 | Parameter | Value |
 |------------|--------|
-| Total Length | 125 mm |
-| Jaw Length | 35 mm |
-| Maximum Jaw Opening | 25 mm |
-| Handle Width | 12 mm |
-| Layer Height | 0.2 mm |
-| Clearance at Joints | 0.35 mm |
+| Total Length | 160 mm |
+| Jaw Length | 55 mm |
+| Maximum Jaw Opening | 18 mm |
+| Handle Width | 23 mm |
+| Plier Height | 5 mm |
+
 
 These specifications were optimized to balance tool strength with print reliability, while ensuring all components remain functional post-print.
 
@@ -60,16 +60,13 @@ These specifications were optimized to balance tool strength with print reliabil
 
 | Setting | Value / Notes |
 |----------|----------------|
-| Printer Type | FDM |
 | Nozzle Size | 0.4 mm |
 | Layer Height | 0.2 mm |
-| Infill Density | 25% (Gyroid) |
-| Print Orientation | Flat, hinge facing upward |
+| Vertical sheels perimeters | 2 minimum |
+| Infill Density and pattern | 25% (Gyroid for sparse and monotonic for top infill) |
 | Support Material | None (bridging design for clearance) |
-| Material | PLA, PETG (alternative: TPU for flexible jaws) |
-| Print Time | ~3 hours |
-
-Proper orientation and bed adhesion are crucial — the hinges should face upward to avoid fusing during printing. A small brim can help prevent warping.
+| Material | PLA, TPU for flexible jaws |
+| Print Time | ~ 3 hours |
 
 ---
 
