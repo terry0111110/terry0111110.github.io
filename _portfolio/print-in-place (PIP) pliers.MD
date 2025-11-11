@@ -1,5 +1,12 @@
 # Print-in-Place Pliers
+---
+title: "Print-in-Place Pliers"
+excerpt: " Print-in-place models are functional multiple-component designs, that work immediately after removal from the print bed."
+header:
 
+  teaser: /assets/img/header——pliers.jpg
+
+---
 ### Overview
 
 This project showcases the design and fabrication of **print-in-place (PIP) pliers**, a single-step 3D-printed mechanism that functions immediately after printing — no assembly required. 
