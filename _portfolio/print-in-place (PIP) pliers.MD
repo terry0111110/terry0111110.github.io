@@ -72,6 +72,7 @@ These specifications were optimized to balance tool strength with print reliabil
 ### Picture Gallery
 
 ## Pliers
+![Pliers Rotation](/assets/img/iteration_pliers.gif)
 ![Pliers](/assets/img/pliers.jpg)
 ## Iterations
 ![Iterations](/assets/img/iteration_pliers.jpg)
