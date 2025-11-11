@@ -61,7 +61,6 @@ These specifications were optimized to balance tool strength with print reliabil
 | Setting | Value / Notes |
 |----------|----------------|
 | Nozzle Size | 0.4 mm |
-| Layer Height | 0.2 mm |
 | Vertical sheels perimeters | 2 minimum |
 | Infill Density and pattern | 25% (Gyroid for sparse and monotonic for top infill) |
 | Support Material | None (bridging design for clearance) |
