@@ -4,7 +4,7 @@ title: "Print-in-Place Pliers"
 excerpt: " Print-in-place models are functional multiple-component designs, that work immediately after removal from the print bed."
 header:
 
-  teaser: /assets/img/header——pliers.jpg
+  teaser: /assets/img/header_pliers.jpg
 
 ---
 ### Overview
