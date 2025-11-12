@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/head_plier.png
 
 ---
-# Print-in-Place Pliers
+
 ### Overview
 
 This project showcases the design and fabrication of **print-in-place (PIP) pliers**, a single-step 3D-printed mechanism that functions immediately after printing — no assembly required. 
