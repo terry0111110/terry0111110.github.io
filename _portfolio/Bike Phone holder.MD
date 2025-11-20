@@ -29,9 +29,9 @@ A reference phone model was imported and positioned at a comfortable viewing ang
 3. Creating components in context
 I used Fusion’s “Create Component” inside the main assembly to model:(There are some sub-components in a parent component.)
 bearing ball, spring
-Holder
+Bar Holder
 Phone Case
-Rotating Plate 
+Rotating mechanism
 Each component’s sketches referenced existing geometry through projected edges and as-built joints, ensuring perfect alignment during assembly.
 
 4. Using As-Built Joint for motion definition
@@ -60,13 +60,9 @@ All parts were printed using filament-based FDM due to: Fast iteration cycle,Low
 The clamp and rotating plate benefit from PLA’s stiffness, while TPU enables comfortable, high-friction contact surfaces.
 | Component          | Material | Printing Method | Reason                                                           |
 | ------------------ | -------- | --------------- | ---------------------------------------------------------------- |
-| Clamp              | PLA      | FDM             | High stiffness needed to resist vibration; PLA holds screws well |
-| Rotating Plate     | PLA      | FDM             | High dimensional accuracy for detent mechanism                   |
-| Detent Housing     | PLA      | FDM             | Rigid structure required for ball/spring interaction             |
-| Phone Holder Body  | PLA      | FDM             | Solid structure; connects securely to rotating plate             |
-| Phone Contact Pads | TPU      | FDM             | Flexible pads protect the phone and create friction grip         |
-
-
+| Bar holder         | PLA      | FDM             | High stiffness needed to resist vibration; PLA holds screws well |
+| Rotating mechanism | PLA      | FDM             | High dimensional accuracy for detent mechanism                   |
+| Phone Case         | TPU      | FDM             | Flexible pads protect the phone and create friction grip         |
 
 
 ### Applications of Print-in-Place Design
