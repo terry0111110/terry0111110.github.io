@@ -110,9 +110,6 @@ An interactive version of the CAD model can be viewed below:
 ## Cross-section View of Internal Rotation Mechanism  
 ![Cross-section](/assets/img/Cross-section%20view%20of%20internal%20rotation%20mechanism.png)
 
-## Phone + Bike Holder (Render)
-![Phone Bike Holder](/assets/img/head_phone_bike_holder.png)
-
 ## Phone Case Rendering  
 ![Phone Case](/assets/img/phone%20case.png)
 
