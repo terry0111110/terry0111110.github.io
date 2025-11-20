@@ -65,6 +65,20 @@ The clamp and rotating plate benefit from PLA’s stiffness, while TPU enables c
 | Phone Case         | TPU      | FDM             | Flexible pads protect the phone and create friction grip         |
 
 
+### Assembly/use instructions
+
+1. Clamp Installation
+Open the clamp and place it around the bike handlebar (25.4 mm). Tighten 3 M3 screws using a hex key during initial installation. After installation, no tools are required for operation.
+
+2. Attach Rotating Plate
+The rotating plate engages the bar holder through 4 M3 screws. Ensure the detent ball and spring are inserted before closing the housing.
+
+3. Mount the Phone Case
+Using a M3 screw connects the phone Case and the rotating plate. 
+
+4. Using the phone bike holder
+Push the phone to rotate between portrait ↔ landscape. Detent mechanism will click and hold the orientation. Holder stays stable under road vibrations.
+
 ### Applications of Print-in-Place Design
 
 Print-in-place mechanisms have been widely adopted in both functional and educational projects. A few examples include:
