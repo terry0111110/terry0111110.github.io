@@ -104,30 +104,28 @@ An interactive version of the CAD model can be viewed below:
 
 ### Picture Gallery
 
-### Picture Gallery
-
 ## Bar Holder  
-![Bar Holder](/assets/img/bar_holder.png)
+![Bar Holder](/assets/img/bar holder.png)
 
 ## Cross-section View of Internal Rotation Mechanism  
-![Cross-section](/assets/img/Cross-section_view_of_internal_rotation_mechanism.png)
+![Cross-section](/assets/img/Cross-section view of internal rotation mechanism.png)
 
 ## Phone + Bike Holder (Render)
 ![Phone Bike Holder](/assets/img/head_phone_bike_holder.png)
 
 
 ## Phone Case Rendering  
-![Phone Case](/assets/img/phone_case.png)
+![Phone Case](/assets/img/phone case.png)
 
 ## Rotating Mechanism  
-![Rotating Mechanism](/assets/img/Rotating_mechanism.png)
+![Rotating Mechanism](/assets/img/Rotating mechanism.png)
 
 ## Additional Renderings  
 ![Render](/assets/img/render.png)
 ![Rendering](/assets/img/rendering.png)
 
 ## Holder Rotating (GIF)
-![Holder Rotating](/assets/img/holder_rotating.gif)
+![Holder Rotating](/assets/img/holder rotating.gif)
 
 ---
 
