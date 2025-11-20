@@ -14,6 +14,54 @@ This project focuses on designing and 3D printing a functional bike phone mount 
 
 ---
 
+
+
+### Top-Down Modeling Description & How It Was Used
+
+Top-down modeling is a CAD strategy where the overall assembly context is defined first, and individual components are then created in place within that context. Instead of designing parts independently and later assembling them (bottom-up), top-down modeling begins with the final functional system layout.
+
+In this assignment, top-down modeling was leveraged in several important ways:
+
+Modeling the handlebar first
+I created a reference handlebar component using the exact diameter (22.2 mm or 25.4 mm). This component served as the fixed “ground truth” for the entire design.
+
+Inserting the phone model early
+A reference phone model was imported and positioned at a comfortable viewing angle. I used “Project” (shortcut: P) to bring its edges into sketches. This allowed me to dimension the clamp surfaces and clearance zones directly off the phone geometry.
+
+Creating components in context
+I used Fusion’s “Create Component” inside the main assembly to model:
+
+Clamp
+
+Rotating Plate
+
+Phone Holder
+
+Detent Housing
+
+Each component’s sketches referenced existing geometry through projected edges and as-built joints, ensuring perfect alignment during assembly.
+
+Using As-Built Joint for motion definition
+
+Clamp ↔ Handlebar: Rigid
+
+Rotating Plate ↔ Clamp: Revolute
+
+Phone Holder ↔ Rotation Plate: Rigid
+
+Top-down modeling ensured that any changes to the handlebar size, phone thickness, or rotation clearance automatically propagated to dependent components, reducing redesign work and improving consistency.
+
+
+
+
+
+
+
+
+
+
+
+
 ### Applications of Print-in-Place Design
 
 Print-in-place mechanisms have been widely adopted in both functional and educational projects. A few examples include:
