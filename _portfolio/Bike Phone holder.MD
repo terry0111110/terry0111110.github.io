@@ -3,7 +3,7 @@ title: "Top-Down Modeled Bike Phone Mount"
 excerpt: " This project focuses on designing and 3D printing a functional bike phone mount using a top-down CAD modeling approach."
 header:
 
-  teaser: /assets/img/head_plier.png
+  teaser: /assets/img/head_phone_bike_holder.png
 
 ---
 
