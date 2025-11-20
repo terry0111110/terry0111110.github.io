@@ -18,38 +18,33 @@ This project focuses on designing and 3D printing a functional bike phone mount 
 
 ### Top-Down Modeling Description & How It Was Used
 
-Top-down modeling is a CAD strategy where the overall assembly context is defined first, and individual components are then created in place within that context. Instead of designing parts independently and later assembling them (bottom-up), top-down modeling begins with the final functional system layout.
+Top-down modeling is a CAD strategy where the overall assembly context is defined first, and individual components are then created in place within that context. Instead of designing parts independently and later assembling them (bottom-up), top-down modeling begins with the final functional system layout. Top-down modeling ensured that any changes to the handlebar size, phone thickness, or rotation clearance automatically propagated to dependent components, reducing redesign work and improving consistency.
 
 In this assignment, top-down modeling was leveraged in several important ways:
 
-Modeling the handlebar first
+1. Modeling the handlebar first
 I created a reference handlebar component using the exact diameter (22.2 mm or 25.4 mm). This component served as the fixed “ground truth” for the entire design.
 
-Inserting the phone model early
-A reference phone model was imported and positioned at a comfortable viewing angle. I used “Project” (shortcut: P) to bring its edges into sketches. This allowed me to dimension the clamp surfaces and clearance zones directly off the phone geometry.
+2. Inserting the phone model early
+A reference phone model was imported and positioned at a comfortable viewing angle. I used “Project” to bring its edges into sketches. This allowed me to dimension the clamp surfaces and clearance zones directly off the phone geometry.
 
-Creating components in context
-I used Fusion’s “Create Component” inside the main assembly to model:
-
-Clamp
-
-Rotating Plate
-
-Phone Holder
-
-Detent Housing
-
+3. Creating components in context
+I used Fusion’s “Create Component” inside the main assembly to model:(There are some sub-components in a parent component.)
+bearing ball, spring
+Holder
+Phone Case
+Rotating Plate 
 Each component’s sketches referenced existing geometry through projected edges and as-built joints, ensuring perfect alignment during assembly.
 
-Using As-Built Joint for motion definition
+4. Using As-Built Joint for motion definition
 
-Clamp ↔ Handlebar: Rigid
+Holder ↔ Handlebar: Rigid
 
-Rotating Plate ↔ Clamp: Revolute
+Rotating Plate: Revolute
 
-Phone Holder ↔ Rotation Plate: Rigid
+Phone case ↔ Rotation Plate: Rigid
 
-Top-down modeling ensured that any changes to the handlebar size, phone thickness, or rotation clearance automatically propagated to dependent components, reducing redesign work and improving consistency.
+
 
 
 
