@@ -57,12 +57,12 @@ I change the design of detent mechanism, instead of rotating in X-Z plane, it ro
 ### printing technology 
 All parts were printed using filament-based FDM due to: Fast iteration cycle,Low cost, Good dimensional accuracy, ability to mix materials (PLA + TPU) and strong interlayer adhesion on structural components.
 
-The clamp and rotating plate benefit from PLA’s stiffness, while TPU enables comfortable, high-friction contact surfaces.
 | Component          | Material | Printing Method | Reason                                                           |
-| ------------------ | -------- | --------------- | ---------------------------------------------------------------- |
+|:------------------:|:--------:|:---------------:|------------------------------------------------------------------|
 | Bar holder         | PLA      | FDM             | High stiffness needed to resist vibration; PLA holds screws well |
 | Rotating mechanism | PLA      | FDM             | High dimensional accuracy for detent mechanism                   |
 | Phone Case         | TPU      | FDM             | Flexible pads protect the phone and create friction grip         |
+
 
 
 ### Assembly/use instructions
@@ -105,27 +105,26 @@ An interactive version of the CAD model can be viewed below:
 ### Picture Gallery
 
 ## Bar Holder  
-![Bar Holder](/assets/img/bar holder.png)
+![Bar Holder](/assets/img/bar%20holder.png)
 
 ## Cross-section View of Internal Rotation Mechanism  
-![Cross-section](/assets/img/Cross-section view of internal rotation mechanism.png)
+![Cross-section](/assets/img/Cross-section%20view%20of%20internal%20rotation%20mechanism.png)
 
 ## Phone + Bike Holder (Render)
 ![Phone Bike Holder](/assets/img/head_phone_bike_holder.png)
 
-
 ## Phone Case Rendering  
-![Phone Case](/assets/img/phone case.png)
+![Phone Case](/assets/img/phone%20case.png)
 
 ## Rotating Mechanism  
-![Rotating Mechanism](/assets/img/Rotating mechanism.png)
+![Rotating Mechanism](/assets/img/Rotating%20mechanism.png)
 
 ## Additional Renderings  
-![Render](/assets/img/render.png)
 ![Rendering](/assets/img/rendering.png)
 
 ## Holder Rotating (GIF)
-![Holder Rotating](/assets/img/holder rotating.gif)
+![Holder Rotating](/assets/img/holder%20rotating.gif)
+
 
 ---
 
