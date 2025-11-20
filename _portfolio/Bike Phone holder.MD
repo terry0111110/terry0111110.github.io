@@ -14,8 +14,6 @@ This project focuses on designing and 3D printing a functional bike phone mount 
 
 ---
 
-
-
 ### Top-Down Modeling Description & How It Was Used
 
 Top-down modeling is a CAD strategy where the overall assembly context is defined first, and individual components are then created in place within that context. Instead of designing parts independently and later assembling them (bottom-up), top-down modeling begins with the final functional system layout. Top-down modeling ensured that any changes to the handlebar size, phone thickness, or rotation clearance automatically propagated to dependent components, reducing redesign work and improving consistency.
@@ -46,13 +44,27 @@ Phone case ↔ Rotation Plate: Rigid
 
 
 
+## Design Rationale
+### Rotation Mechanism & Detent Design
+
+I selected a detent mechanism using an as-built joint. A ball-and-spring detent was integrated into the rotating plate to provide tactile “clicks” at 0° (portrait) and 90° (landscape).
+The detent groove was shaped as a shallow U-profile to balance holding force and ease of snapping. This mechanism works effectively—the rotation feels smooth, and the phone locks positively at both viewing orientations.
 
 
+### 3D Printing Dimension Adjustments
+I change the design of detent mechanism, instead of rotating in X-Z plane, it rotates in X-Y plane. I also adjust the design of phone case in order to prevent screws from protruding and damaging the phone. And I also reprinted the rotator for better connection between phone case and rotator.
 
+### printing technology 
+All parts were printed using filament-based FDM due to: Fast iteration cycle,Low cost, Good dimensional accuracy, ability to mix materials (PLA + TPU) and strong interlayer adhesion on structural components.
 
-
-
-
+The clamp and rotating plate benefit from PLA’s stiffness, while TPU enables comfortable, high-friction contact surfaces.
+| Component          | Material | Printing Method | Reason                                                           |
+| ------------------ | -------- | --------------- | ---------------------------------------------------------------- |
+| Clamp              | PLA      | FDM             | High stiffness needed to resist vibration; PLA holds screws well |
+| Rotating Plate     | PLA      | FDM             | High dimensional accuracy for detent mechanism                   |
+| Detent Housing     | PLA      | FDM             | Rigid structure required for ball/spring interaction             |
+| Phone Holder Body  | PLA      | FDM             | Solid structure; connects securely to rotating plate             |
+| Phone Contact Pads | TPU      | FDM             | Flexible pads protect the phone and create friction grip         |
 
 
 
