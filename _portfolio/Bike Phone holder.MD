@@ -104,17 +104,20 @@ An interactive version of the CAD model can be viewed below:
 
 ### Picture Gallery
 
+## Real-life picture
+![Real-life picture](/assets/img/real%20picture.png)
+
 ## Bar Holder  
 ![Bar Holder](/assets/img/bar%20holder.png)
 
-## Cross-section View of Internal Rotation Mechanism  
-![Cross-section](/assets/img/Cross-section%20view%20of%20internal%20rotation%20mechanism.png)
+## Rotating Mechanism  
+![Rotating Mechanism](/assets/img/Rotating%20mechanism.png)
 
 ## Phone Case Rendering  
 ![Phone Case](/assets/img/phone%20case.png)
 
-## Rotating Mechanism  
-![Rotating Mechanism](/assets/img/Rotating%20mechanism.png)
+## Cross-section View of Internal Rotation Mechanism  
+![Cross-section](/assets/img/Cross-section%20view%20of%20internal%20rotation%20mechanism.png)  
 
 ## Additional Renderings  
 ![Rendering](/assets/img/rendering.png)
