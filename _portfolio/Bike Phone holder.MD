@@ -7,11 +7,10 @@ header:
 
 ---
 
-### Overview
+### Introduction
 
-This project showcases the design and fabrication of **print-in-place (PIP) pliers**, a single-step 3D-printed mechanism that functions immediately after printing — no assembly required. 
+This project focuses on designing and 3D printing a functional bike phone mount using a top-down CAD modeling approach. The goal was to create a holder that can be quickly attached to a bicycle handlebar, securely grip a smartphone, and rotate smoothly between portrait and landscape orientations using a detent mechanism—without requiring any tools during operation.
 
-Print-in-place (PIP) designs represent one of the most creative uses of 3D printing. Instead of printing separate parts and assembling them later, PIP models integrate all components — hinges, springs, sliders — into one continuous structure. When printed correctly, the parts are free to move once the support material or bridging layers are broken away.
 
 ---
 
