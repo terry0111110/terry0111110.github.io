@@ -79,22 +79,38 @@ Using a M3 screw connects the phone Case and the rotating plate.
 
 4. Using the phone bike holder
 Push the phone to rotate between portrait ↔ landscape. Detent mechanism will click and hold the orientation. Holder stays stable under road vibrations.
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+## Generative Design and Powder Bed Fusion for Assembly Consolidation  
+### Commercial Example: Bugatti Titanium Brake Caliper (Automotive)
 
-### Applications of Print-in-Place Design
+A well-documented commercial example of combining **generative design** with **powder bed fusion (PBF)** for assembly consolidation is the **Bugatti titanium brake caliper**, developed in collaboration with additive manufacturing partners using laser powder bed fusion (LPBF).
 
-Print-in-place mechanisms have been widely adopted in both functional and educational projects. A few examples include:
+### Background
+Traditional high-performance automotive brake calipers are typically manufactured as multi-piece assemblies. These assemblies consist of several machined aluminum or steel components that must be bolted together, increasing part count, assembly time, and potential failure points.
 
-* **Hinged tools** such as adjustable wrenches, scissors, or clamps.
-* **Living hinges and flexures** used in enclosures or folding mechanisms.
-* **Articulated toys or models**, like snakes, chains, or robots with movable limbs.
-* **Deployable structures** in aerospace or robotics, where compact parts unfold after printing.
+### Role of Generative Design
+Generative design was used to explore load paths within the caliper under braking conditions, including hydraulic pressure, clamping forces, and thermal loads. Instead of starting from an existing caliper geometry, the design process defined:
+- Mounting interfaces
+- Brake pad contact regions
+- Hydraulic piston locations
+- Required stiffness and strength constraints  
 
-External research shows that PIP techniques are valuable for **reducing post-processing time**, improving **assembly precision**, and enabling **rapid prototyping** of mechanisms that would otherwise require multiple parts and fasteners.
+The algorithm generated an optimized geometry that efficiently transferred loads while eliminating unnecessary material.
 
-When it comes to materials, **PLA** and **PETG** are the most common choices due to their predictable print shrinkage and low warping. For applications needing flexibility or durability, **TPU** can also be used — especially in designs where compliant joints are integrated directly into the geometry.
+### Application of Powder Bed Fusion
+Laser powder bed fusion enabled the production of this complex, organic geometry in **titanium**, a material difficult to machine conventionally. The caliper was printed as a **single monolithic part**, replacing a multi-component assembly.
+
+### Assembly Consolidation Benefits
+- Reduction from multiple machined components to **one printed part**
+- Elimination of fasteners and internal joints
+- Improved structural stiffness due to continuous load paths
+- Reduced mass while maintaining or improving braking performance
+
+### Industrial Significance
+This example demonstrates how the combination of generative design and powder bed fusion enables true **design-for-function**, allowing engineers to consolidate assemblies that were previously constrained by traditional manufacturing methods. The result is a lighter, stronger, and simpler component, particularly valuable in high-performance automotive applications.
 
 ---
-
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ### Embedded CAD Model
 
 An interactive version of the CAD model can be viewed below:
