@@ -79,7 +79,7 @@ Laser powder bed fusion enabled the production of this complex, organic geometry
 This example demonstrates how the combination of generative design and powder bed fusion enables true **design-for-function**, allowing engineers to consolidate assemblies that were previously constrained by traditional manufacturing methods. The result is a lighter, stronger, and simpler component, particularly valuable in high-performance automotive applications.
 
 ---
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 ### Embedded CAD Model
 
 An interactive version of the CAD model can be viewed below:
