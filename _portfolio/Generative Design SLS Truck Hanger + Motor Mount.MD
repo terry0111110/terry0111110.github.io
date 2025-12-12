@@ -4,7 +4,7 @@ excerpt: "This project focuses on designing a lightweight longboard truck hanger
 
 header:
 
-  teaser: /assets/img/head_phone_bike_holder.png
+  teaser: /assets/img/GD_header.png
 
 ---
 
