@@ -12,74 +12,43 @@ header:
 
 This project focuses on designing and 3D printing a functional bike phone mount using a top-down CAD modeling approach. The goal was to create a holder that can be quickly attached to a bicycle handlebar, securely grip a smartphone, and rotate smoothly between portrait and landscape orientations using a detent mechanism—without requiring any tools during operation.
 
+## Importance of Proper Load Case Definition in Generative Design
 
----
+### Why Proper Load Cases Matter
+Applying appropriate load cases is critical in generative design because the algorithm does not “understand” intent — it only responds to the loads and constraints provided. The resulting geometry is a direct consequence of how forces are applied and how the structure is constrained. Unrealistic or incomplete load cases can lead to designs that are either structurally inefficient or fail under real-world conditions.
 
-### Top-Down Modeling Description & How It Was Used
+### Determining Which Forces to Apply
+The applied forces were identified by analyzing how the longboard truck and motor mount operate in real use. Instead of applying arbitrary loads, each force corresponds to a physical interaction:
 
-Top-down modeling is a CAD strategy where the overall assembly context is defined first, and individual components are then created in place within that context. Instead of designing parts independently and later assembling them (bottom-up), top-down modeling begins with the final functional system layout. Top-down modeling ensured that any changes to the handlebar size, phone thickness, or rotation clearance automatically propagated to dependent components, reducing redesign work and improving consistency.
+- **Vertical loads** represent rider weight transferred through the deck to the truck during normal riding.
+- **Lateral (side) loads** simulate turning maneuvers, where wheels generate side forces that introduce bending and torsion in the hanger.
+- **Motor-related loads** include:
+  - The motor’s gravitational load acting downward.
+  - Belt tension forces acting tangentially at the motor pulley location.
+  - Resulting moments caused by belt forces acting at an offset from the hanger centerline.
 
-In this assignment, top-down modeling was leveraged in several important ways:
+By mapping real mechanical interactions to simplified but representative loads, the model captures the dominant load paths without unnecessary complexity.
 
-1. Modeling the handlebar first
-I created a reference handlebar component using the exact diameter (22.2 mm or 25.4 mm). This component served as the fixed “ground truth” for the entire design.
+### Placement of Structural Constraints
+Structural constraints were placed at interfaces where the truck is mechanically restricted by other components:
 
-2. Inserting the phone model early
-A reference phone model was imported and positioned at a comfortable viewing angle. I used “Project” to bring its edges into sketches. This allowed me to dimension the clamp surfaces and clearance zones directly off the phone geometry.
+- **Axle interfaces** were constrained using pin-type constraints to allow rotation while preventing translation, reflecting how the axle supports the wheels.
+- **Pivot and kingpin contact regions** were constrained to represent contact with bushings and the deck-mounted baseplate.
 
-3. Creating components in context
-I used Fusion’s “Create Component” inside the main assembly to model:(There are some sub-components in a parent component.)
-bearing ball, spring
-Bar Holder
-Phone Case
-Rotating mechanism
-Each component’s sketches referenced existing geometry through projected edges and as-built joints, ensuring perfect alignment during assembly.
+These constraints were applied only to preserve geometry, ensuring that functional interfaces remain unchanged while allowing the surrounding material to evolve.
 
-4. Using As-Built Joint for motion definition
+### Effect of Constraint Placement on the Outcome
+Constraint placement directly influences stiffness distribution and material flow in the generated design. Over-constraining the model would artificially stiffen the structure and suppress meaningful optimization, while under-constraining could lead to non-physical deformation modes. By placing constraints at realistic contact locations, the generative algorithm produces a geometry that efficiently transfers loads between wheels, motor, and deck, resulting in a structurally sound and manufacturable design.
 
-Holder ↔ Handlebar: Rigid
+### Improving the Load Case Definition Process
+The load case definition process can be improved by:
+- Separating different riding scenarios into multiple load cases (e.g., straight riding vs. turning).
+- Using conservative but realistic load magnitudes instead of peak theoretical values.
+- Validating load assumptions against physical intuition and simplified hand calculations.
 
-Rotating Plate: Revolute
-
-Phone case ↔ Rotation Plate: Rigid
-
-
-
-## Design Rationale
-### Rotation Mechanism & Detent Design
-
-I selected a detent mechanism using an as-built joint. A ball-and-spring detent was integrated into the rotating plate to provide tactile “clicks” at 0° (portrait) and 90° (landscape).
-The detent groove was shaped as a shallow U-profile to balance holding force and ease of snapping. This mechanism works effectively—the rotation feels smooth, and the phone locks positively at both viewing orientations.
+This approach ensures that the generative design outcome is both optimized and representative of real-world performance.
 
 
-### 3D Printing Dimension Adjustments
-I change the design of detent mechanism, instead of rotating in X-Z plane, it rotates in X-Y plane. I also adjust the design of phone case in order to prevent screws from protruding and damaging the phone. And I also reprinted the rotator for better connection between phone case and rotator.
-
-### printing technology 
-All parts were printed using filament-based FDM due to: Fast iteration cycle,Low cost, Good dimensional accuracy, ability to mix materials (PLA + TPU) and strong interlayer adhesion on structural components.
-
-| Component          | Material | Printing Method | Reason                                                           |
-|:------------------:|:--------:|:---------------:|------------------------------------------------------------------|
-| Bar holder         | PLA      | FDM             | High stiffness needed to resist vibration; PLA holds screws well |
-| Rotating mechanism | PLA      | FDM             | High dimensional accuracy for detent mechanism                   |
-| Phone Case         | TPU      | FDM             | Flexible pads protect the phone and create friction grip         |
-
-
-
-### Assembly/use instructions
-
-1. Clamp Installation
-Open the clamp and place it around the bike handlebar (25.4 mm). Tighten 3 M3 screws using a hex key during initial installation. After installation, no tools are required for operation.
-
-2. Attach Rotating Plate
-The rotating plate engages the bar holder through 4 M3 screws. Ensure the detent ball and spring are inserted before closing the housing.
-
-3. Mount the Phone Case
-Using a M3 screw connects the phone Case and the rotating plate. 
-
-4. Using the phone bike holder
-Push the phone to rotate between portrait ↔ landscape. Detent mechanism will click and hold the orientation. Holder stays stable under road vibrations.
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ## Generative Design and Powder Bed Fusion for Assembly Consolidation  
 ### Commercial Example: Bugatti Titanium Brake Caliper (Automotive)
 
