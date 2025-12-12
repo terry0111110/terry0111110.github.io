@@ -50,33 +50,33 @@ This approach ensures that the generative design outcome is both optimized and r
 
 
 ## Generative Design and Powder Bed Fusion for Assembly Consolidation  
-### Commercial Example: Bugatti Titanium Brake Caliper (Automotive)
+### Commercial Example: Bugatti Titanium Brake Caliper
 
-A well-documented commercial example of combining **generative design** with **powder bed fusion (PBF)** for assembly consolidation is the **Bugatti titanium brake caliper**, developed in collaboration with additive manufacturing partners using laser powder bed fusion (LPBF).
+A real commercial example of using generative design with powder bed fusion is the 
+**Bugatti titanium brake caliper**, which was produced using laser powder bed fusion.
 
 ### Background
-Traditional high-performance automotive brake calipers are typically manufactured as multi-piece assemblies. These assemblies consist of several machined aluminum or steel components that must be bolted together, increasing part count, assembly time, and potential failure points.
+Conventional high-performance brake calipers are usually built from multiple machined 
+aluminum or steel parts that are bolted together. While this approach works, it increases 
+part count, assembly effort, and the number of potential failure points.
 
-### Role of Generative Design
-Generative design was used to explore load paths within the caliper under braking conditions, including hydraulic pressure, clamping forces, and thermal loads. Instead of starting from an existing caliper geometry, the design process defined:
-- Mounting interfaces
-- Brake pad contact regions
-- Hydraulic piston locations
-- Required stiffness and strength constraints  
+### Design Approach
+Instead of modifying an existing design, generative design was used to define only the 
+critical functional regions, such as mounting points, piston locations, and pad contact 
+areas. The software then generated a geometry that efficiently carried braking loads while 
+removing unnecessary material.
 
-The algorithm generated an optimized geometry that efficiently transferred loads while eliminating unnecessary material.
+### Manufacturing and Results
+The final design was printed as a **single titanium component** using powder bed fusion. 
+This replaced a multi-part assembly with one continuous structure, eliminating fasteners 
+and internal joints. The result was a lighter caliper with high stiffness and improved load 
+transfer.
 
-### Application of Powder Bed Fusion
-Laser powder bed fusion enabled the production of this complex, organic geometry in **titanium**, a material difficult to machine conventionally. The caliper was printed as a **single monolithic part**, replacing a multi-component assembly.
-
-### Assembly Consolidation Benefits
-- Reduction from multiple machined components to **one printed part**
-- Elimination of fasteners and internal joints
-- Improved structural stiffness due to continuous load paths
-- Reduced mass while maintaining or improving braking performance
-
-### Industrial Significance
-This example demonstrates how the combination of generative design and powder bed fusion enables true **design-for-function**, allowing engineers to consolidate assemblies that were previously constrained by traditional manufacturing methods. The result is a lighter, stronger, and simpler component, particularly valuable in high-performance automotive applications.
+### Why This Matters
+This example shows how generative design and powder bed fusion can be used to simplify 
+mechanical assemblies. By combining multiple parts into a single printed component, 
+manufacturers can reduce weight, improve structural performance, and simplify production, 
+especially in high-performance automotive applications.
 
 ---
 
