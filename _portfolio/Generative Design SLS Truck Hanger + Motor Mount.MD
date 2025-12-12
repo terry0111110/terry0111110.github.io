@@ -82,11 +82,18 @@ especially in high-performance automotive applications.
 
 ### Embedded CAD Model
 
-An interactive version of the CAD model can be viewed below:
+An interactive version of the CAD model can be viewed below:  
+
 It is made of aluminum (AlSi10Mg).
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811435715b47b7d609c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+A rendering of the completed longboard assembly with the generative design
+trucks.(AlSi10Mg)
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811c4c46b86b57f9358?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 It is made of  Nylon 12.
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111762e2d1921da00c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+A rendering of the completed longboard assembly with the generative design
+trucks.(Nylon 12)
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811113278f7bcbcd161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 ---
 ## Comparison Between Aluminum and Nylon Outcomes
 
