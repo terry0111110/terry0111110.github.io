@@ -10,7 +10,7 @@ header:
 
 ### Introduction
 
-This project focuses on designing and 3D printing a functional bike phone mount using a top-down CAD modeling approach. The goal was to create a holder that can be quickly attached to a bicycle handlebar, securely grip a smartphone, and rotate smoothly between portrait and landscape orientations using a detent mechanism—without requiring any tools during operation.
+This project explores the use of generative design to create a lightweight longboard truck hanger with an integrated motor mount. The design aims to reduce part count and material usage while preserving all critical mechanical interfaces. Multiple load cases and constraints were applied in Fusion 360 to ensure realistic structural behavior. The final outcomes compare Nylon 12 and AlSi10Mg to evaluate the trade-off between weight, stiffness, and deformation.
 
 ## Importance of Proper Load Case Definition in Generative Design
 
