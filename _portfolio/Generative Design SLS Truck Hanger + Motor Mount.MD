@@ -83,10 +83,20 @@ especially in high-performance automotive applications.
 ### Embedded CAD Model
 
 An interactive version of the CAD model can be viewed below:
-
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028117bb0e35a052504aa?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
+It is made of aluminum (AlSi10Mg).
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811435715b47b7d609c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+It is made of  Nylon 12.
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111762e2d1921da00c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 ---
+## Comparison Between Aluminum and Nylon Outcomes
+
+The aluminum and nylon generative design outcomes show clear differences in structural behavior, even though the overall geometry and volume are similar.
+
+The aluminum (AlSi10Mg) design has a mass of 0.132 kg and exhibits very low deformation, with a maximum displacement of only 0.137 mm. The minimum safety factor is 16.7, which is far above the required limit of 2. This indicates that the aluminum outcome is significantly overdesigned in terms of strength and stiffness for the applied load cases.
+
+In contrast, the Nylon 12 design is much lighter, with a mass of 0.05 kg, but experiences substantially higher deformation. The maximum displacement reaches 7.68 mm, and the minimum safety factor is reduced to 3.16. While this still satisfies the safety factor requirement, the increased flexibility reflects the much lower stiffness of nylon compared to aluminum.
+
+Overall, the aluminum outcome prioritizes stiffness and structural rigidity, making it suitable for high-load or performance-critical applications. The nylon outcome favors weight reduction and compliance, which may be acceptable for prototyping or lower-load use cases but could be limited by deformation rather than strength.
 
 ### Picture Gallery
 
