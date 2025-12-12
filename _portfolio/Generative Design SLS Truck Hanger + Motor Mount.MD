@@ -108,25 +108,10 @@ Overall, the aluminum outcome prioritizes stiffness and structural rigidity, mak
 ### Picture Gallery
 
 ## Real-life picture
-![Real-life picture](/assets/img/real%20picture.png)
+![Real-life picture](/assets/img/assembled.jpg)
 
-## Bar Holder  
-![Bar Holder](/assets/img/bar%20holder.png)
-
-## Rotating Mechanism  
-![Rotating Mechanism](/assets/img/Rotating%20mechanism.png)
-
-## Phone Case Rendering  
-![Phone Case](/assets/img/phone%20case.png)
-
-## Cross-section View of Internal Rotation Mechanism  
-![Cross-section](/assets/img/Cross-section%20view%20of%20internal%20rotation%20mechanism.png)  
-
-## Additional Renderings  
-![Rendering](/assets/img/rendering.png)
-
-## Holder Rotating (GIF)
-![Holder Rotating](/assets/img/holder%20rotating.gif)
+## Working (GIF)
+![Holder Rotating](/assets/img/GD.gif)
 
 
 ---
