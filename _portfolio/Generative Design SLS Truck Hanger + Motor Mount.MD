@@ -108,7 +108,7 @@ Overall, the aluminum outcome prioritizes stiffness and structural rigidity, mak
 ### Picture Gallery
 
 ## Real-life picture
-![Real-life picture](/assets/img/Assembled.PNG)
+![Real-life picture](/assets/img/Assembled.png)
 
 ## Working (GIF)
 ![Holder Rotating](/assets/img/GD.gif)
