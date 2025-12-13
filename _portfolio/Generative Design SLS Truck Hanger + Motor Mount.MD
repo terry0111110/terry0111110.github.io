@@ -48,6 +48,8 @@ The load case definition process can be improved by:
 
 This approach ensures that the generative design outcome is both optimized and representative of real-world performance.
 
+### Iteration Process
+After the first product, I found it is hard to assemble them together, even the relative position of each components is correct. So I increased the cushion area in the original design, and regenerate design. Then it works. Hence, the assemble process is also a important factor we need to consider when we generate design.
 
 ## Generative Design and Powder Bed Fusion for Assembly Consolidation  
 ### Commercial Example: Bugatti Titanium Brake Caliper
