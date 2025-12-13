@@ -116,9 +116,9 @@ Overall, the aluminum outcome prioritizes stiffness and structural rigidity, mak
 
 ---
 
-**Conclusion**
+## Conclusion
 
-This project demonstrates how generative design can be used to create a structurally efficient longboard truck hanger while reducing part count and material usage. The comparison between Nylon 12 and AlSi10Mg highlights that material selection strongly affects stiffness and deformation, even when strength requirements are met. Overall, generative design is most effective when combined with realistic load cases and engineering judgment.
+**This project demonstrates how generative design can be used to create a structurally efficient longboard truck hanger while reducing part count and material usage. The comparison between Nylon 12 and AlSi10Mg highlights that material selection strongly affects stiffness and deformation, even when strength requirements are met. Overall, generative design is most effective when combined with realistic load cases and engineering judgment.**
 ---
 
 *Created by Letian Ren – CHBE 4200 Additive Manufacturing Project.*
