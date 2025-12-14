@@ -22,7 +22,7 @@ Python, MATLAB,
 * Tools/Software: 
 Abaqus, Midas, SAP2000, Revit, AutoCAD, SolidWorks, Ardurino, Gurobi, Delft-3D, HEC-RAS,SWAN, HEC-SSP
 * Technology: 
-Machine Learning, Sensors, optimization
+Machine Learning, Sensors, optimization, 3D printing
 
 ## Award
 
